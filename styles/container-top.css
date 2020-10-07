@@ -1,0 +1,60 @@
+.container-top {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 128px;
+}
+
+.container-title {
+  width: 480px;
+}
+
+.container-title h1 {
+  font-size: 40px;
+  color: hsl(300, 43%, 22%);
+}
+
+.container-title p {
+  margin-top: 16px;
+  color: hsl(303, 10%, 53%);
+}
+
+.container-evaluation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.evaluation {
+  display: flex;
+  align-items: center;
+
+  width: 450px;
+  padding: 16px 32px 16px 32px;
+  margin: 8px;
+  border-radius: 8px;
+
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(300, 24%, 96%);
+}
+
+.evaluation-1 {
+  margin-right: 96px;
+}
+
+.evaluation-2 {
+  margin-right: 48px;
+}
+
+.evaluation-3 {
+  margin-right: 0px;
+}
+
+.container-evaluation img {
+  padding: 4px;
+}
+
+.container-evaluation span {
+  margin-left: 32px;
+}
