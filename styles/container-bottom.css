@@ -5,7 +5,7 @@
 }
 
 .card {
-  width: 375px;
+  width: 369px;
   padding: 32px;
   border-radius: 8px;
   background-color: hsl(300, 43%, 22%);
@@ -56,7 +56,8 @@
 }
 
 .attribution {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 16px;
   font-size: 11px;
   text-align: center;
 }
