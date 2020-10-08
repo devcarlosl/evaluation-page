@@ -1,0 +1,49 @@
+.card {
+  width: 369px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: $very-dark-magenta;
+}
+
+.card-1 {
+  margin-bottom: 32px;
+}
+
+.card-2 {
+  margin: 16px 32px 16px 32px;
+}
+
+.card-3 {
+  margin-top: 32px;
+}
+
+.header-card {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin: 16px;
+  width: 40px;
+  border-radius: 30px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  color: $white;
+    h4 {
+      color: $light-grayish-magenta;
+    }
+    p {
+      color: $soft-pink;
+    }
+}
+
+.card-text {
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: $light-grayish-magenta;
+}

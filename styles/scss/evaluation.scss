@@ -1,0 +1,39 @@
+.section-evaluation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+    img {
+      padding: 4px;
+    }
+    span {
+      margin-left: 32px;
+    }
+}
+
+.evaluation {
+  display: flex;
+  align-items: center;
+
+  width: 450px;
+  padding: 16px 32px 16px 32px;
+  margin: 8px;
+  border-radius: 8px;
+
+  font-size: 13px;
+  font-weight: 700;
+  color: $very-dark-magenta;
+  background-color: $light-grayish-magenta;
+
+}
+
+.evaluation-1 {
+  margin-right: 96px;
+}
+
+.evaluation-2 {
+  margin-right: 48px;
+}
+
+.evaluation-3 {
+  margin-right: 0px;
+}
