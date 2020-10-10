@@ -3,3 +3,86 @@
     background-size: 500px 350px, 1100px 720px;
   }
 }
+
+@media (min-width: 1900px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 900px 600px, 1500px 800px;
+  }
+  .container {
+    width: 1440px;
+    align-content: center;
+  }
+  .footer {
+    padding-top: 260px;
+  }
+}
+
+/* Evaluation responsive */
+@media (min-width: $desktop) {
+  .section-evaluation {
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .evaluation {
+    justify-content: start;
+    padding-left: 32px;
+  }
+  .ev-1 {
+    margin-left: -16px;
+  }
+  .ev-2 {
+    margin-left: 32px;
+  }
+  .ev-3 {
+    margin-left: 80px;
+    margin-right: 16px;
+  }
+}
+
+/* Card responsive */
+@media (min-width: $desktop) {
+  .card-container {
+    justify-content: center;
+    margin-top: 48px;
+  }
+  .cd-1 {
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  .cd-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .cd-3 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .container {
+    align-content: center;
+  }
+  .section-info {
+    text-align: start;
+    justify-content: center;
+    h1 {
+      font-size: 40px;
+      padding-top: 40px;
+      margin-left: 16px;
+    }
+    p {
+      margin-left: 16px;
+    }
+  }
+  .footer {
+    padding-top: 56px;
+  }
+  
+}

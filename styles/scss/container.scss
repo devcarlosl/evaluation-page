@@ -1,0 +1,9 @@
+.container::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+
+[class*="col-"] {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+.section-info {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 48px 16px;
+  padding-bottom: 16px;
+  h1 {
+    font-size: 30px;
+    color: hsl(300, 43%, 22%);
+  }
+  p {
+    padding-top: 32px;
+    color: hsl(303, 10%, 53%);
+  }
+}
+
+.section-title-message {
+  width: $mobile;
+  padding-top: 48px;
+  text-align: center;
+    h1 {
+      font-size: 30px;
+      color: hsl(300, 43%, 22%);
+    }
+    p {
+      padding: 32px 0px;
+      color: hsl(303, 10%, 53%);
+    }
+}
